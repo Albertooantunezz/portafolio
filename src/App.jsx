@@ -4,15 +4,7 @@ import { motion } from "framer-motion";
 
 function App() {
   return (
-    <div className="bg-gray-900 text-white min-h-screen">
-      {/* Navbar */}
-      <nav className="fixed w-full bg-gray-800 p-4 flex justify-end space-x-4 pr-10">
-        <a href="#about" className="hover:text-yellow-400">Sobre mí</a>
-        <a href="#projects" className="hover:text-yellow-400">Proyectos</a>
-        <a href="#contact" className="hover:text-yellow-400">Contacto</a>
-      </nav>
-
-      {/* Hero Section */}
+    <div className="bg-gray-900 text-white w-screen">
       <section className="h-screen flex flex-col items-center justify-center">
         <motion.h1 
           className="text-5xl font-bold"
@@ -20,10 +12,17 @@ function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          ¡Hola! Soy <span className="text-yellow-400">[Tu Nombre]</span>
+          <img src="./img/foto.jpeg" alt="" />
+          ¡Hola! Soy <span className="text-yellow-400">Alberto Antúnez</span>
         </motion.h1>
         <p className="text-lg mt-3">Desarrollador Full Stack | React | Node.js</p>
       </section>
+
+      <nav className=" w-full p-4 flex justify-end space-x-4 pr-10">
+        <a href="#about" className="hover:text-yellow-400">Sobre mí</a>
+        <a href="#projects" className="hover:text-yellow-400">Proyectos</a>
+        <a href="#contact" className="hover:text-yellow-400">Contacto</a>
+      </nav>
 
       {/* Sobre mí */}
       <section id="about" className="p-20">
