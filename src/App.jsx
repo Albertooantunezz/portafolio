@@ -75,19 +75,19 @@ function App() {
           >
             <button
               onClick={() => smoothScroll("about")}
-              className="hover:text-yellow-400 w-50"
+              className="cursor-pointer hover:text-yellow-400 w-50 border-1 rounded border-transparent hover:border-yellow-400 p-2 mb-2 "
             >
               Sobre mí
             </button>
             <button
               onClick={() => smoothScroll("experience")}
-              className="hover:text-yellow-400 w-50"
+              className="cursor-pointer hover:text-yellow-400 w-50 border-1 rounded border-transparent hover:border-yellow-400 p-2 mb-2 "
             >
               Experiencia
             </button>
             <button
               onClick={() => smoothScroll("projects")}
-              className="hover:text-yellow-400 w-50"
+              className="cursor-pointer hover:text-yellow-400 w-50 border-1 rounded border-transparent hover:border-yellow-400 p-2 mb-2 "
             >
               Proyectos
             </button>
@@ -111,7 +111,7 @@ function App() {
               </a>
               <a
                 target="_blank"
-                href="albertoantunezfernandez@gmail.com"
+                href="mailto:albertoantunezfernandez@gmail.com"
                 className="text-yellow-400 text-4xl"
               >
                 <FaEnvelope />
