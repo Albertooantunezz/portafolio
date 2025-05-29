@@ -1,15 +1,11 @@
-
+// tailwind.config.js
 module.exports = {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  safelist: ['bg-white', 'text-black', 'text-yellow-500'], // Agrega tus clases usadas dinámicamente
-  darkMode: 'class', // o 'media', si usas el sistema
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
