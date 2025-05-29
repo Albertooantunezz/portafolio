@@ -260,7 +260,7 @@ function App() {
 
                 <a
                   target="_blank"
-                  href="https://trivionix.vercel.app/"
+                  href="https://trivionix.vercel.app/?v=12345"
                   className="text-yellow-400 mr-5"
                 >
                   Abrir
