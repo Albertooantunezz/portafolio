@@ -242,7 +242,6 @@ function App() {
               </ul>
             </div>
           </section>
-/* 
           <section
             id="projects"
             className="p-20 bg-gray-800 rounded-2xl mb-20 rounded-2xl"
@@ -276,7 +275,7 @@ function App() {
               </div>
             </div>
           </section>
-          */
+         
         </motion.div>
       </div>
     </div>
